@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'HomebrewMaven'
+        maven 'Testing'
     }
     stages {
         stage('Build') {
